@@ -1,5 +1,5 @@
 # gwnb_lid
-Keyboard and mouse driver for phytium platform notebooks
+Lid driver for phytium platform notebooks
 
 ## How to build
 ```bash
