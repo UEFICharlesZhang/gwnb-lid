@@ -1,11 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Power supply driver for the goldfish emulator
+ * LID driver for the goldfish emulator
  *
- * Copyright (C) 2008 Google, Inc.
- * Copyright (C) 2012 Intel, Inc.
- * Copyright (C) 2013 Intel, Inc.
- * Author: Mike Lockwood <lockwood@android.com>
+ * Author: Charles Zhang
  */
 
 #include <linux/module.h>
@@ -297,4 +294,4 @@ module_platform_driver(gwnb_lid_device);
 
 MODULE_AUTHOR("zhangshuzhen@greatwall.com.cn");
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Battery driver for greatwall ft notebooks");
+MODULE_DESCRIPTION("Lid driver for greatwall ft notebooks");
