@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * LID driver for the goldfish emulator
+ * Lid driver for the Great Wall FT Notebooks.
  *
  * Author: Charles Zhang
  */
@@ -294,4 +294,4 @@ module_platform_driver(gwnb_lid_device);
 
 MODULE_AUTHOR("zhangshuzhen@greatwall.com.cn");
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Lid driver for greatwall ft notebooks");
+MODULE_DESCRIPTION("Lid driver for the Great Wall FT Notebooks.");
