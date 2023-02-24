@@ -2,17 +2,14 @@
 /*
  * Lid driver for the Great Wall FT Notebooks.
  *
- * Author: Charles Zhang
+ * Author: Charles Zhang <zhangshuzhen@greatwall.com.cn>
  */
 
 #include <linux/module.h>
 #include <linux/err.h>
 #include <linux/platform_device.h>
 #include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
 #include <linux/acpi.h>
-#include <linux/delay.h>
 
 #include <linux/input.h>
 
@@ -94,7 +91,7 @@ static struct platform_driver
 module_platform_driver(gwnb_lid_device);
 
 
-MODULE_AUTHOR("zhangshuzhen@greatwall.com.cn");
+MODULE_AUTHOR("Charles Zhang");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Lid driver for the Great Wall FT Notebooks.");
 MODULE_ALIAS("gwnb-lid");
